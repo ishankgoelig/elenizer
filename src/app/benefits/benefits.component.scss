@@ -1,0 +1,10 @@
+.benefit-img {
+    width: 100%;
+    /* Ensures responsiveness */
+    height: 300px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Ensures images maintain aspect ratio without distortion */
+    border-radius: 10px;
+    /* Adds smooth rounded corners */
+}

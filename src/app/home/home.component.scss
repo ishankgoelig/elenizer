@@ -1,0 +1,93 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.hero-section {
+    // background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.info-section {
+    padding: 50px 0;
+}
+
+.info-section img {
+    border-radius: 10px;
+}
+
+.benefits-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.benefit-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.benefit-box i {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    padding: 40px 20px;
+}
+
+.cta-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+}
+
+.benefit-img {
+    width: 100%;
+    /* Ensures the image takes full width of the column */
+    height: 200px;
+    /* Sets a fixed height to ensure uniformity */
+    object-fit: cover;
+    /* Crops the image to fit within the defined dimensions */
+    aspect-ratio: 4 / 3;
+    /* Ensures a consistent aspect ratio across images */
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-in-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.main-img {
+    max-height: 550px !important;
+}
